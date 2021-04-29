@@ -1,0 +1,20 @@
+.App-header {
+  /* background-color: #4e7cd8;
+  /* color: aliceblue;
+  text-transform: uppercase;
+  height: 100px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+h1 {
+  
+}
+
