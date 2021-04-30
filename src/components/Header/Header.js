@@ -1,16 +1,14 @@
-import Cart from '../Cart/Cart';
+import Cart from '../ShoppingCart/ShoppingCart';
 import './Header.css';
 
-
-
-const Header = () => {
+const Header = ({ onCartClick }) => {
   return (
     <>
       <header className="App-header">
         <h1>
-          Welcome to our store
+          Shopping
         </h1>
-        <Cart />
+        <Cart onClick={onCartClick} />
       </header>
     </>
   )
